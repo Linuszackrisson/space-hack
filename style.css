@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Share&display=swap');
+
+    /* Rest of your CSS code */
+
+* {
+margin: 0;
+}
+
+body {
+max-width: 1440px;
+margin: 0 auto;
+
+
+
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Share;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.intro {
+display: grid;
+grid-template-columns: repeat(4, 360px);
+grid-template-rows: repeat(2, 360px);
+
+
+}
+
+.intro-left {
+background-color: #2E2D31;
+grid-column: 1  / 3;
+grid-row: 1 / 4;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+}
+
+.right-box1 {
+background-color: #5D44AB;
+grid-column: 3 / 3;
+grid-row: 1 / 2;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+}
+
+.right-box2 {
+    background-color: #7654B4;
+    grid-column: 6 / 4;
+    grid-row: 1 / 2;
+    display: flex;
+align-items: center;
+justify-content: center;
+    
+    
+    
+    }
+
+
+.right-box3 {
+background-color: #967ECB;
+grid-column: 3 / 4;
+grid-row: 2 / 2;
+display: flex;
+align-items: center;
+justify-content: center;
+        
+        
+        
+        }
+
+
+.right-box4 {
+
+background-color: #0E002C;
+grid-column: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+    
+.intro img {
+
+    width: 203px;
+    height: auto;
+    flex-shrink: 0;
+
+
+
+}
+
+
+.hero {
+    background-image: url("/assets/astronaut.jpg");
+    height: 850px;
+    width: 100%;
+    background-color: rgba(14, 0, 44, .57);
+    background-blend-mode: multiply;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.second-section {
+    display: grid;
+    grid-template-columns: repeat(4, 360px);
+    grid-template-rows: repeat(2, 360px);
+    
+    
+    }
+
+.second-section img {
+width: 50%;
+height: auto;
+
+
+
+}
+
+
+.second-section-right {
+
+background-color: #2E2D31;
+grid-column: 3 / 5;
+grid-row: 1 / 3;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+}
+
+.left-box1 {
+background-color: #0E002C;
+grid-column: 1 / 3;
+grid-row: 3 / 2;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+
+}
+
+.left-box2 {
+background-color: #5D44AB;
+grid-column: 2 / 2;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+
+}
+
+.left-box3 {
+background-color: #7654B4;
+grid-column: 1 / 2;
+grid-row: 1 / 1;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+
+
+}
+
+.left-box1 h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Share;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+
+}
+
+
+.contact {
+display: flex;
+justify-content: space-evenly;
+background-color: #05010B;
+align-items: center;
+padding-left: 63px;
+padding-right: 63px;
+height: 669px;
+
+
+
+
+}
+
+.contact-left {
+display: flex;
+flex-direction: column;
+height: 100%;
+padding-top: 53px;
+
+
+
+
+}
+
+.contact-left h2 {
+    color: #FFF;
+    font-family: Share;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+
+
+
+
+}
+
+.contact-left p {
+color: #FFF;
+font-family: Share;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+padding-top: 13px;
+width: 90%;
+
+
+
+}
+
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    
+    
+    
+    }    
+
+
+
+.form1 {
+    width: 582px;
+    height: 110px;
+    background-color: #D9D9D9;
+    
+    
+    
+
+}
+
+.form2 {
+    width: 582px;
+    height: 249px;
+    background-color: #D9D9D9;
+    
+
+
+
+}
+
+button {
+    width: 285px;
+    height: 110px;
+    background-color: #967ECB;
+    color: #000;
+    font-family: Share;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: flex-end;
+    
+    
+
+
+}
+
+.footer {
+background-color: #654C8C;
+height:631px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+
+}
+
+
+.footer-h2 h2 {
+margin: 0;
+color: #000;
+font-family: Share;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 70%;
+padding-left: 118px;
+padding-top: 207px;
+
+
+}
+
+.space {
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+padding-top: 57px;
+
+}
+.space p {
+    color: #000;
+    font-family: Shanti;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+
+
+}
+
+.space h2 {
+    color: #000;
+    font-family: Shanti;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: flex-start;
+
+
+
+}
+
+.space-text {
+ width: 124px;
+
+
+}
+    
+
+
+
+
+
